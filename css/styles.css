@@ -1012,9 +1012,35 @@ body {
     text-align: left;
   }
 
-  .customers {
-    padding: 96px 108px;
+  .team {
+    /* padding-left: 92px;
+    padding-right: 92px; */
   }
+  .team-container {
+    width: 582px;
+  }
+  .team-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .team-list-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .team-list {
+    gap: 64px 24px;
+  }
+  .customers-container {
+    width: 582px;
+  }
+  .customers {
+    /* padding-left: 92px;
+    padding-right: 92px; */
+  }
+
   .customers-list {
     flex-wrap: wrap;
     justify-content: center;
