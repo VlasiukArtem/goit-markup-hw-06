@@ -1022,7 +1022,7 @@ body {
     gap: 72px 24px;
   }
   .customers-list-item {
-    /* width: calc((100% - 24px * 2) / 3); */
+    width: calc((100% - 24px * 2) / 3);
   }
   .customers-link {
     width: 168px;
