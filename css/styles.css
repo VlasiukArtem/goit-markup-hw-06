@@ -462,7 +462,7 @@ body {
 
 .customers-list-item {
   height: 88px;
-  /* width: calc((100% - 16px) / 2); */
+  width: calc((100% - 16px) / 2);
   /* width: calc((100% - 120px) / 6); */
 }
 
