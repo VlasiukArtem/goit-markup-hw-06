@@ -30,6 +30,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 100%;
@@ -67,7 +69,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  /* margin-right: 76px; */
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -493,16 +495,25 @@ body {
 /**-----FOOTER----- */
 
 .footer {
-  padding: 100px 0;
+  /* padding: 100px 0; */
   background: var(--navyblue);
 }
 .footer-container {
-  flex-direction: row;
+  padding-bottom: 96px;
+  /* flex-direction: row;
   display: flex;
-  align-items: baseline;
+  align-items: baseline; */
 }
 .footer-logo-par {
-  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 120px; */
+}
+.logo {
+  display: flex;
+  margin-bottom: 17.5px;
+  padding: 98px 158px 0 155px;
 }
 .logo-studio-footer {
   color: var(--cloud);
@@ -514,13 +525,18 @@ body {
   text-transform: uppercase;
 }
 .footer-text {
+  margin-bottom: 72px;
   color: var(--cloud);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+.footer-socials {
+}
 .footer-socials-text {
+  display: flex;
+  justify-content: center;
   color: var(--white);
   font-size: 16px;
   font-style: normal;
@@ -532,6 +548,7 @@ body {
 
 .footer-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -562,10 +579,12 @@ body {
 }
 
 .footer-form-content {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .footer-form-text {
+  text-align: center;
   margin-bottom: 16px;
+  margin-top: 72px;
   color: var(--white);
   font-size: 16px;
   font-weight: 500;
@@ -573,11 +592,14 @@ body {
   letter-spacing: 0.02em;
 }
 .footer-form {
-  display: flex;
+  /* display: flex; */
+  display: block;
   gap: 24px;
 }
 .footer-input {
-  width: 264px;
+  /* width: 264px; */
+  width: 100%;
+  margin-bottom: 16px;
   height: 40px;
   background-color: transparent;
   padding: 0 16px;
@@ -987,6 +1009,10 @@ body {
   }
   .customers-list-item {
     width: calc((100% - 16px) / 2);
+  }
+
+  .footer-container {
+    max-width: 428px;
   }
 }
 
