@@ -67,9 +67,9 @@ body {
 .link {
   text-decoration: none;
 }
-.no-scroll {
+/* .no-scroll {
   overflow: hidden;
-}
+} */
 
 .subtitle {
   color: var(--navyblue);
