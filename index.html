@@ -59,14 +59,14 @@
       </div>
     </header> -->
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <section class="advantages">
         <div class="container advantages-container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -127,10 +127,19 @@
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
             <li class="work-list-item">
-              <img src="./images/interface.jpg" width="360" alt="interface" />
+              <img
+                srcset="/images/interface.jpg 1x, /images/interface-2x.jpg 2x"
+                src="./images/interface.jpg"
+                width="360"
+                alt="interface"
+              />
             </li>
             <li class="work-list-item">
               <img
+                srcset="
+                  ./images/communication.jpg    1x,
+                  ./images/communication-2x.jpg 2x
+                "
                 src="./images/communication.jpg"
                 width="360"
                 alt="communication"
@@ -138,6 +147,10 @@
             </li>
             <li class="work-list-item">
               <img
+                srcset="
+                  ./images/multiplatform.jpg    1x,
+                  ./images/multiplatform-2x.jpg 2x
+                "
                 src="./images/multiplatform.jpg"
                 width="360"
                 alt="multiplatform"
@@ -153,6 +166,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-image"
+                srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x"
                 src="./images/mark.jpg"
                 width="264"
                 alt="mark"
@@ -215,6 +229,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-image"
+                srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x"
                 src="./images/tom.jpg"
                 width="264"
                 alt="tom"
@@ -277,6 +292,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-image"
+                srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x"
                 src="./images/camila.jpg"
                 width="264"
                 alt="camila"
@@ -339,6 +355,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-image"
+                srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x"
                 src="./images/daniel.jpg"
                 width="264"
                 alt="daniel"
