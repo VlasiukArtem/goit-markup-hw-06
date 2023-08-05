@@ -254,6 +254,7 @@ body {
 .mob-link-mail:focus {
   color: var(--iris);
 }
+
 .mob-socials-list {
   display: flex;
   justify-content: space-between;
@@ -1138,7 +1139,7 @@ body {
     max-width: 768px;
   }
   .no-scroll {
-    overflow: visible;
+    overflow: scroll;
   }
 
   .header-list {
@@ -1151,6 +1152,10 @@ body {
     display: flex;
 
     gap: 40px;
+  }
+  .contact-link-item:hover,
+  .contact-link-item:focus {
+    color: var(--iris);
   }
 
   .header-menu-link {
@@ -1370,7 +1375,7 @@ body {
     max-width: 1158px;
   }
   .no-scroll {
-    overflow: visible;
+    overflow: scroll;
   }
   .header-list {
     display: flex;
@@ -1394,6 +1399,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact-link-item:hover,
+  .contact-link-item:focus {
+    color: var(--iris);
   }
   .hamburger-open {
     display: none;
