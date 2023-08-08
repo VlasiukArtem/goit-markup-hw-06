@@ -1601,4 +1601,7 @@ body {
   .modal {
     width: 392px;
   }
+  .footer-text {
+    max-width: 100%;
+  }
 }
