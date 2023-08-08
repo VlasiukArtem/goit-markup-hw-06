@@ -1159,6 +1159,10 @@ body {
   .contact-link-item:focus {
     color: var(--iris);
   }
+  .contact-list-item:hover,
+  .contact-list-item:focus {
+    color: var(--iris);
+  }
 
   .header-menu-link {
     display: block;
